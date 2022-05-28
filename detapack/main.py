@@ -71,8 +71,12 @@ def import_command(key: str, basename: str, path: str):
 
     typer.echo(f"Reading data from {path}...")
     data = ""
-    with open(path, "r") as f:
-        data = f.read()
+    try:
+        with open(path, "r") as f:
+            data = f.read()
+    except FileNotFoundError:
+        typer.secho("ERROR! File to import doesn't exist", fg=typer.colors.BRIGHT_RED)
+        return
 
     typer.echo(f"Importing to Deta Base...")
     data = json.loads(data)
