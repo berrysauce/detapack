@@ -5,6 +5,7 @@
     <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/detapack">
     <img alt="PyPI" src="https://img.shields.io/pypi/v/detapack">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/berrysauce/detapack">
+    <img alt="GitHub CodeQL" src="https://github.com/berrysauce/detapack/actions/workflows/codeql-analysis.yml/badge.svg">
 </p>
 
 ## What is detapack?
