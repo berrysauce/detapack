@@ -8,7 +8,7 @@ from progress.bar import ChargingBar
 # app configuration
 app = typer.Typer(help="detapack: Import/Export data from/to Deta Bases")
 APP_NAME = "detapack"
-APP_VERSION = "0.1.1"
+APP_VERSION = "0.1.2"
 
 
 @app.command(name="version")

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "detapack"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Paul Haedrich <paul@berrysauce.me>"]
 readme = "README.md"
