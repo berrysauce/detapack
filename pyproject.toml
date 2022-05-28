@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "detapack"
+version = "0.1.1"
+description = ""
+authors = ["Paul Haedrich <paul@berrysauce.me>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+detapack = "detapack.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.4.1"
+deta = "^1.1.0"
+progress = "^1.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
