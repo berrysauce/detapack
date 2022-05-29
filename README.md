@@ -12,7 +12,7 @@
 detapack is a tiny & simple CLI built with [Typer](https://github.com/tiangolo/typer) (in Python) which can import and export data from and to Deta Bases.
 
 ## How to install detapack?
-detapack can be installed the Python Package Index.
+detapack can be installed from the Python Package Index.
 ```
 pip install detapack
 ```
