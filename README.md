@@ -1,4 +1,4 @@
-<h1 align="center">detapack 📄</h1>
+<h1 align="center">📄 detapack</h1>
 <p align="center"><strong>Import/Export data from/to Deta Bases</strong></p>
 <p align="center">
     <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/detapack">
