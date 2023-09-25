@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "detapack"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
-authors = ["Paul Haedrich <paul@berrysauce.me>"]
+authors = ["Paul Haedrich <hey@foerstal.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
@@ -10,9 +10,9 @@ detapack = "detapack.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-typer = "^0.4.1"
-deta = "^1.1.0"
-progress = "^1.6"
+typer = "^0.9.0"
+deta = "^1.2.0"
+rich = "^13.5.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
